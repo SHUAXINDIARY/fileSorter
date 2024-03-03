@@ -8,10 +8,13 @@ var SortCommand = /** @class */ (function () {
     function SortCommand(commandList) {
         var _this = this;
         this.comm = commander_1.program;
-        this.comm.name(_package.name).version(_package.version);
+        this.comm
+            .name(_package.name)
+            .version(_package.version)
+            .description(constant_1.COMMAND_DES);
         Object.keys(commandList).forEach(function (key) {
             var commandKey = commandList[key];
-            _this.comm.option(constant_1.COMMAND_OPTIONS[commandKey], constant_1.COMMAND_DES[commandKey], constant_1.COMMAND_DEFAULT_VALUE[commandKey]);
+            _this.comm.option(constant_1.COMMAND_OPTIONS[commandKey], constant_1.COMMAND_ARG_DES[commandKey], constant_1.COMMAND_DEFAULT_VALUE[commandKey]);
         });
         this.comm.parse();
     }

@@ -1,9 +1,10 @@
 # 项目简介 - About the Project 
 
-对指定目录下的所有文件进行分类 - Classifies all files in the specified directory
+自用的文件操作cli工具
 
+# 文件分类
 
-# 使用 - usage
+## 使用 - usage
 
 ```shell
 
@@ -34,7 +35,7 @@ sorter -m
 
 ```
 
-# TODO
+## TODO
 
 ### 核心 - core：
 
@@ -56,3 +57,24 @@ sorter -m
   - [ ] 命令行交互优化 - interactional optimization
   
 
+# 文件上传
+
+### 功能说明
+
+- 上传执行目录内的全部图片到指定空间
+- 上传过程中有loading ui展示
+- 输出上传结果日志
+
+### 食用指南
+
+```bash
+# 使用流程：
+
+# 安装
+npm i -g xxx
+
+# 使用
+# s:SECRET_KEY  a: ACCESS_KEY b: 上传空间（bucket）
+upload -s xxx -a xxx -b 
+
+```

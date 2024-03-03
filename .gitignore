@@ -2,3 +2,7 @@
 /source
 .DS_Store
 /lib
+
+test.sh
+
+uploadResult.json

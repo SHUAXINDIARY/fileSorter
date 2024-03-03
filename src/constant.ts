@@ -21,7 +21,7 @@ export const COMMAND_OPTIONS = {
 };
 
 // 参数描述
-export const COMMAND_DES = {
+export const COMMAND_ARG_DES = {
   [ARGMAP.DIR]: "select a directory",
   [ARGMAP.TYPE]: "specifying a file type",
   [ARGMAP.IS_MOVE]:
@@ -34,3 +34,7 @@ export const COMMAND_DEFAULT_VALUE = {
   [ARGMAP.DIR]: process.cwd(),
   [ARGMAP.TYPE]: "all",
 };
+
+// 命令行describe
+
+export const COMMAND_DES: string = `文件分类命令：sorter\n文件上传命令：upload\n以下参数为sorter命令的参数`;
