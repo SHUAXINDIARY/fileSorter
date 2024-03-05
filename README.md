@@ -57,24 +57,23 @@ sorter -m
   - [ ] 命令行交互优化 - interactional optimization
   
 
-# 文件上传
+# 图片上传 - img upload 
 
 ### 功能说明
 
-- 上传执行目录内的全部图片到指定空间
-- 上传过程中有loading ui展示
-- 输出上传结果日志
+- 上传执行目录内全部图片到七牛云对象存储 - Upload all images in the current directory to Qiniu Cloud Object Storage
+- 上传过程进度条展示 - Display the upload progress bar during the uploading process.
+- 输出上传结果日志 - Output the upload result logs.
 
 ### 食用指南
 
 ```bash
-# 使用流程：
 
-# 安装
+# 安装 - install
 npm i -g xxx
 
-# 使用
+# 使用 - use
 # s:SECRET_KEY  a: ACCESS_KEY b: 上传空间（bucket）
-upload -s xxx -a xxx -b 
+upload -s xxx -a xxx -b xxx
 
 ```
