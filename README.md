@@ -1,10 +1,10 @@
 # 项目简介 - About the Project 
 
-自用的文件操作cli工具
+处理图片文件的终端工具 - The terminal tool for processing image files
 
-# 文件分类
+# 文件分类 - Image Categorization
 
-## 使用 - usage
+## 使用 - Usage
 
 ```shell
 
@@ -19,7 +19,7 @@ sorter
 
 ```
 
-### 所有选项 - all options
+### 所有选项 - All options
 
 ```shell
 
@@ -37,7 +37,7 @@ sorter -m
 
 ## TODO
 
-### 核心 - core：
+### 核心 - Core：
 
 - [x] 对文件分类到不同类型的文件夹 - classify files
 
@@ -59,13 +59,13 @@ sorter -m
 
 # 图片上传 - img upload 
 
-### 功能说明
+### 功能说明 - Functional description
 
-- 上传执行目录内全部图片到七牛云对象存储 - Upload all images in the current directory to Qiniu Cloud Object Storage
-- 上传过程进度条展示 - Display the upload progress bar during the uploading process.
-- 输出上传结果日志 - Output the upload result logs.
+- 上传执行目录内全部图片到七牛云对象存储 - upload all images in the current directory to Qiniu Cloud Object Storage
+- 上传过程进度条展示 - display the upload progress bar during the uploading process.
+- 输出上传结果日志 - output the upload result logs.
 
-### 食用指南
+### 食用指南 - Guide
 
 ```bash
 
